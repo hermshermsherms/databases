@@ -1,0 +1,57 @@
+<html>
+  <style>
+    body{
+      font-size: 12pt;
+      font-family: arial;
+    }
+  </style>
+<body>
+  <h1>List of people in the database for your reference</h1>
+  <!--<div>{{data}}</div>-->
+  <div>
+    {% for n in data %}
+    {{n}},
+    {% endfor %} and many more to come!
+  </div>
+<!--<p><a href="/another">Go to the other page</a></p>
+-->
+<form method="POST" action="/billsearch">
+<p>Type the name of a person above to access the bills that they have supported: <input type="text" name="userinput"> <input type="submit" value="Search"></p>
+</form>
+</body>
+   <h1>Select one of the states in the database to find your representatives</h1>
+   <form method="POST" action="/repsearch">
+   <p>Select one: <input type="radio" name="state" value = "TE"> TE <input type="radio" name="state" value = "AL"> AL <input type="radio" name="state"value = "AZ"> AZ <input type="radio" name="state"value = "KS"> KS <input type="radio" name="state"value = "CA"> CA <input type="radio" name="state"value = "CO"> CO <input type="radio" name="state"value = "CN"> CN <input type="radio" name="state"value = "DE"> DE <input type="radio" name="state"value = "NY"> NY <input type="radio"
+ name="state"value = "NJ"> NJ <input type="radio" name="state" value =  "TX"> TX <input type="radio" name="state"value = "FL"> FL <input type="radio" name="state"value = "KY"> KY <input type="radio" name="state"value = "HI"> HI <input type="radio" name="state"value = "LA"> LA </p> <input type="submit" value="Select"></p>
+</form>
+</body>
+   <h1> Select a gender and a government office to discover which genders are represented on which committees</h1>
+<form method ="POST" action ="/gensearch">
+  <input type="radio" name="gen" value="M"> Male
+  <input type="radio" name="gen" value="F"> Female <br>
+  <input type="radio" name="consen" value="Congressman"> Congressman
+  <input type="radio" name="consen" value="Senator"> Senator
+</p> <input type = "submit" value = "Select"></p></form>
+</body>
+   <h1>Search for topics and see what states they are important in!</h1>
+   <form method="POST" action="/topicsearch">
+   <p>Type the subject of a bill to learn which topics are most important to which states.  In other words, this shows the states represented by the members of committees supporting the subjects you searched. <input type="text" name="topic"> <input type="submit" value="Search"></p>
+</form>
+<html>
+~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+~                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+                                                               
